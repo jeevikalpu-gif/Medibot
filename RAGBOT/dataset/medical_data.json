@@ -1,0 +1,156 @@
+[
+  {
+    "disease_name": "Hypertension (High Blood Pressure)",
+    "symptoms": ["Headaches", "Shortness of breath", "Nosebleeds", "Chest pain", "Dizziness", "Blurred vision"],
+    "causes": ["Obesity", "Lack of physical activity", "High sodium diet", "Excessive alcohol consumption", "Stress", "Genetics", "Age"],
+    "diagnosis": "Blood pressure readings consistently above 140/90 mmHg. Diagnosed using sphygmomanometer measurements taken on multiple occasions.",
+    "tests": ["Blood pressure monitoring", "Blood tests", "Urine tests", "ECG", "Echocardiogram"],
+    "treatment": ["Lifestyle modifications", "Regular exercise", "Low-sodium diet", "Weight management", "Stress reduction"],
+    "medications": ["ACE inhibitors", "Beta-blockers", "Diuretics", "Calcium channel blockers", "ARBs"],
+    "precautions": ["Monitor blood pressure regularly", "Limit sodium intake", "Maintain healthy weight", "Avoid smoking", "Limit alcohol"],
+    "references": "American Heart Association Guidelines 2023"
+  },
+  {
+    "disease_name": "Type 2 Diabetes",
+    "symptoms": ["Increased thirst", "Frequent urination", "Fatigue", "Blurred vision", "Slow healing wounds", "Numbness in hands/feet"],
+    "causes": ["Insulin resistance", "Obesity", "Sedentary lifestyle", "Genetics", "Age", "High blood pressure"],
+    "diagnosis": "Fasting blood glucose ≥126 mg/dL or HbA1c ≥6.5% or random glucose ≥200 mg/dL with symptoms.",
+    "tests": ["Fasting blood glucose", "HbA1c test", "Oral glucose tolerance test", "Random blood glucose"],
+    "treatment": ["Diet modification", "Regular exercise", "Weight loss", "Blood glucose monitoring", "Medication compliance"],
+    "medications": ["Metformin", "Insulin", "Sulfonylureas", "DPP-4 inhibitors", "GLP-1 agonists"],
+    "precautions": ["Monitor blood sugar levels", "Follow diabetic diet", "Regular foot care", "Eye examinations", "Kidney function monitoring"],
+    "references": "American Diabetes Association Standards 2023"
+  },
+  {
+    "disease_name": "Asthma",
+    "symptoms": ["Wheezing", "Shortness of breath", "Chest tightness", "Coughing", "Difficulty sleeping due to breathing problems"],
+    "causes": ["Allergens", "Air pollution", "Respiratory infections", "Physical activity", "Weather changes", "Stress", "Genetics"],
+    "diagnosis": "Spirometry test showing reversible airway obstruction, peak flow measurements, and clinical symptoms assessment.",
+    "tests": ["Spirometry", "Peak flow measurement", "Chest X-ray", "Allergy tests", "Exhaled nitric oxide test"],
+    "treatment": ["Avoid triggers", "Use prescribed inhalers", "Develop action plan", "Regular monitoring", "Allergy management"],
+    "medications": ["Short-acting bronchodilators", "Long-acting bronchodilators", "Inhaled corticosteroids", "Leukotriene modifiers"],
+    "precautions": ["Carry rescue inhaler", "Avoid known triggers", "Get vaccinated", "Monitor peak flow", "Follow asthma action plan"],
+    "references": "Global Initiative for Asthma Guidelines 2023"
+  },
+  {
+    "disease_name": "Migraine",
+    "symptoms": ["Severe headache", "Nausea", "Vomiting", "Sensitivity to light", "Sensitivity to sound", "Visual disturbances"],
+    "causes": ["Hormonal changes", "Stress", "Certain foods", "Sleep changes", "Weather changes", "Genetics"],
+    "diagnosis": "Clinical diagnosis based on headache characteristics, frequency, and associated symptoms. No specific test required.",
+    "tests": ["Medical history", "Physical examination", "CT scan (if needed)", "MRI (if needed)", "Blood tests (to rule out other causes)"],
+    "treatment": ["Rest in dark room", "Apply cold compress", "Stay hydrated", "Stress management", "Regular sleep schedule"],
+    "medications": ["Triptans", "NSAIDs", "Anti-nausea medications", "Preventive medications", "Beta-blockers"],
+    "precautions": ["Identify triggers", "Maintain regular sleep", "Stay hydrated", "Manage stress", "Avoid trigger foods"],
+    "references": "International Headache Society Classification 2023"
+  },
+  {
+    "disease_name": "Pneumonia",
+    "symptoms": ["Cough with phlegm", "Fever", "Chills", "Shortness of breath", "Chest pain", "Fatigue"],
+    "causes": ["Bacterial infection", "Viral infection", "Fungal infection", "Aspiration", "Weakened immune system"],
+    "diagnosis": "Chest X-ray showing lung infiltrates, clinical symptoms, and laboratory findings consistent with infection.",
+    "tests": ["Chest X-ray", "Blood tests", "Sputum culture", "Pulse oximetry", "CT scan (if needed)"],
+    "treatment": ["Antibiotics (if bacterial)", "Rest", "Fluids", "Oxygen therapy (if needed)", "Hospitalization (severe cases)"],
+    "medications": ["Antibiotics", "Cough suppressants", "Pain relievers", "Bronchodilators", "Oxygen therapy"],
+    "precautions": ["Get vaccinated", "Practice good hygiene", "Avoid smoking", "Strengthen immune system", "Complete antibiotic course"],
+    "references": "Infectious Diseases Society Guidelines 2023"
+  },
+  {
+    "disease_name": "Gastroesophageal Reflux Disease (GERD)",
+    "symptoms": ["Heartburn", "Acid regurgitation", "Chest pain", "Difficulty swallowing", "Chronic cough", "Hoarse voice"],
+    "causes": ["Hiatal hernia", "Obesity", "Pregnancy", "Smoking", "Certain foods", "Medications"],
+    "diagnosis": "Clinical symptoms, response to acid suppression therapy, endoscopy, or pH monitoring studies.",
+    "tests": ["Upper endoscopy", "pH monitoring", "Barium swallow", "Esophageal manometry"],
+    "treatment": ["Dietary modifications", "Weight loss", "Elevate head of bed", "Avoid trigger foods", "Medication compliance"],
+    "medications": ["Proton pump inhibitors", "H2 receptor blockers", "Antacids", "Prokinetic agents"],
+    "precautions": ["Avoid large meals", "Don't lie down after eating", "Avoid trigger foods", "Maintain healthy weight", "Quit smoking"],
+    "references": "American College of Gastroenterology Guidelines 2023"
+  },
+  {
+    "disease_name": "Urinary Tract Infection (UTI)",
+    "symptoms": ["Burning during urination", "Frequent urination", "Urgency", "Cloudy urine", "Strong-smelling urine", "Pelvic pain"],
+    "causes": ["Bacterial infection", "Poor hygiene", "Sexual activity", "Catheter use", "Kidney stones", "Weakened immune system"],
+    "diagnosis": "Urinalysis showing bacteria, white blood cells, and nitrites. Urine culture confirms specific bacteria.",
+    "tests": ["Urinalysis", "Urine culture", "Blood tests (if systemic)", "Imaging (if recurrent)"],
+    "treatment": ["Antibiotics", "Increased fluid intake", "Pain relief", "Complete medication course"],
+    "medications": ["Trimethoprim-sulfamethoxazole", "Nitrofurantoin", "Ciprofloxacin", "Phenazopyridine (pain relief)"],
+    "precautions": ["Stay hydrated", "Urinate after intercourse", "Wipe front to back", "Avoid irritating products", "Complete antibiotic course"],
+    "references": "Infectious Diseases Society UTI Guidelines 2023"
+  },
+  {
+    "disease_name": "Depression",
+    "symptoms": ["Persistent sadness", "Loss of interest", "Fatigue", "Sleep disturbances", "Appetite changes", "Difficulty concentrating"],
+    "causes": ["Chemical imbalance", "Genetics", "Trauma", "Medical conditions", "Medications", "Substance abuse"],
+    "diagnosis": "Clinical assessment using standardized criteria (DSM-5), symptom duration, and severity evaluation.",
+    "tests": ["Mental health screening", "Physical examination", "Blood tests (rule out medical causes)", "Psychological evaluation"],
+    "treatment": ["Psychotherapy", "Medication", "Lifestyle changes", "Support groups", "Regular exercise"],
+    "medications": ["SSRIs", "SNRIs", "Tricyclic antidepressants", "MAOIs", "Atypical antidepressants"],
+    "precautions": ["Monitor for suicidal thoughts", "Regular follow-up", "Medication compliance", "Avoid alcohol", "Maintain social connections"],
+    "references": "American Psychiatric Association Guidelines 2023"
+  },
+  {
+    "disease_name": "Osteoarthritis",
+    "symptoms": ["Joint pain", "Stiffness", "Swelling", "Reduced range of motion", "Bone spurs", "Joint instability"],
+    "causes": ["Age", "Wear and tear", "Obesity", "Joint injury", "Genetics", "Repetitive stress"],
+    "diagnosis": "Clinical examination, X-rays showing joint space narrowing, bone spurs, and symptom assessment.",
+    "tests": ["X-rays", "MRI", "Joint fluid analysis", "Blood tests (rule out other arthritis)"],
+    "treatment": ["Weight management", "Physical therapy", "Exercise", "Pain management", "Joint protection"],
+    "medications": ["NSAIDs", "Acetaminophen", "Topical analgesics", "Corticosteroid injections", "Hyaluronic acid injections"],
+    "precautions": ["Maintain healthy weight", "Regular low-impact exercise", "Protect joints", "Use assistive devices", "Apply heat/cold therapy"],
+    "references": "American College of Rheumatology Guidelines 2023"
+  },
+  {
+    "disease_name": "Anxiety Disorder",
+    "symptoms": ["Excessive worry", "Restlessness", "Fatigue", "Difficulty concentrating", "Muscle tension", "Sleep disturbances"],
+    "causes": ["Genetics", "Brain chemistry", "Trauma", "Stress", "Medical conditions", "Substance use"],
+    "diagnosis": "Clinical assessment using anxiety scales, symptom duration, and impact on daily functioning.",
+    "tests": ["Mental health screening", "Physical examination", "Blood tests (rule out medical causes)", "Psychological evaluation"],
+    "treatment": ["Cognitive behavioral therapy", "Medication", "Relaxation techniques", "Lifestyle modifications", "Support groups"],
+    "medications": ["SSRIs", "SNRIs", "Benzodiazepines", "Buspirone", "Beta-blockers"],
+    "precautions": ["Avoid caffeine", "Regular exercise", "Stress management", "Adequate sleep", "Limit alcohol"],
+    "references": "Anxiety and Depression Association Guidelines 2023"
+  },
+  {
+    "disease_name": "Aspirin (Acetylsalicylic Acid)",
+    "symptoms": ["Pain relief", "Fever reduction", "Anti-inflammatory effects", "Blood thinning"],
+    "causes": ["Pain management", "Fever", "Inflammation", "Heart attack prevention", "Stroke prevention"],
+    "diagnosis": "Over-the-counter medication for pain, fever, and inflammation. Low-dose aspirin for cardiovascular protection.",
+    "tests": ["No specific tests required", "Monitor for bleeding if long-term use", "Check kidney function"],
+    "treatment": ["Take with food", "Follow dosage instructions", "Short-term use for pain", "Long-term low-dose for heart protection"],
+    "medications": ["Aspirin 81mg (low-dose)", "Aspirin 325mg (regular)", "Enteric-coated aspirin", "Buffered aspirin"],
+    "precautions": ["Avoid if allergic to aspirin", "Risk of stomach bleeding", "Don't give to children under 16", "Consult doctor if on blood thinners", "Stop before surgery"],
+    "references": "FDA Drug Information 2023"
+  },
+  {
+    "disease_name": "Ibuprofen (NSAIDs)",
+    "symptoms": ["Pain relief", "Fever reduction", "Anti-inflammatory effects", "Muscle pain relief"],
+    "causes": ["Headaches", "Muscle pain", "Arthritis", "Menstrual cramps", "Fever", "Inflammation"],
+    "diagnosis": "Non-steroidal anti-inflammatory drug for pain, fever, and inflammation management.",
+    "tests": ["Monitor kidney function with long-term use", "Check blood pressure", "Liver function tests if needed"],
+    "treatment": ["Take with food", "Use lowest effective dose", "Short-term use recommended", "Stay hydrated"],
+    "medications": ["Ibuprofen 200mg", "Ibuprofen 400mg", "Ibuprofen 600mg", "Liquid ibuprofen for children"],
+    "precautions": ["Avoid if kidney disease", "Risk of stomach ulcers", "May increase blood pressure", "Don't exceed recommended dose", "Avoid alcohol"],
+    "references": "FDA Drug Information 2023"
+  },
+  {
+    "disease_name": "Acetaminophen (Tylenol)",
+    "symptoms": ["Pain relief", "Fever reduction", "Safe for most people", "Gentle on stomach"],
+    "causes": ["Headaches", "Muscle aches", "Fever", "Arthritis pain", "Cold symptoms"],
+    "diagnosis": "Over-the-counter pain reliever and fever reducer, safer for stomach than NSAIDs.",
+    "tests": ["Monitor liver function with high doses", "Check for other acetaminophen sources"],
+    "treatment": ["Can take with or without food", "Follow dosage instructions carefully", "Safe during pregnancy"],
+    "medications": ["Acetaminophen 325mg", "Acetaminophen 500mg", "Extra strength 650mg", "Liquid forms available"],
+    "precautions": ["Don't exceed 4000mg per day", "Risk of liver damage with overdose", "Check other medications for acetaminophen", "Avoid alcohol with regular use"],
+    "references": "FDA Drug Information 2023"
+  },
+  {
+    "disease_name": "Hole in Heart (Congenital Heart Defects)",
+    "symptoms": ["Shortness of breath", "Fatigue", "Poor feeding in infants", "Slow weight gain", "Frequent respiratory infections", "Bluish skin color", "Heart murmur"],
+    "causes": ["Genetic factors", "Chromosomal abnormalities", "Maternal diabetes", "Maternal infections during pregnancy", "Alcohol consumption during pregnancy", "Smoking during pregnancy", "Certain medications during pregnancy", "Family history"],
+    "diagnosis": "Congenital heart defects occur when heart walls (septum) don't fully form during fetal development. Common types include Atrial Septal Defect (ASD), Ventricular Septal Defect (VSD), and Patent Foramen Ovale (PFO).",
+    "tests": ["Echocardiogram", "Chest X-ray", "ECG", "Cardiac catheterization", "Pulse oximetry", "Fetal echocardiogram"],
+    "treatment": ["Monitoring for small holes", "Surgical repair", "Catheter-based closure", "Medications for symptoms", "Regular cardiology follow-up"],
+    "medications": ["Diuretics", "ACE inhibitors", "Digoxin", "Antibiotics for infection prevention"],
+    "precautions": ["Regular cardiac check-ups", "Prevent infections", "Avoid strenuous activities if advised", "Pregnancy counseling for women", "Genetic counseling for families"],
+    "references": "American Heart Association Congenital Heart Defects Guidelines 2023"
+  }
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIBOT - Medical AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1>🏥 MEDIBOT</h1>
+                <p>Your AI Medical Information Assistant</p>
+            </div>
+            <div class="status">
+                <span id="dataset-status">Loading medical dataset...</span>
+            </div>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm MEDIBOT, your medical information assistant. I can help answer questions about medical conditions, symptoms, and treatments based on my medical database.</p>
+                        <p class="disclaimer">⚠️ <strong>Disclaimer:</strong> This chatbot is for educational purposes only and not a substitute for professional medical diagnosis or treatment.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="typing-indicator" id="typing-indicator" style="display: none;">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>MEDIBOT is typing...</span>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" placeholder="Ask me about medical conditions, symptoms, or treatments..." maxlength="500">
+                <button id="send-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                    </svg>
+                </button>
+            </div>
+            <button id="clear-btn" class="clear-button">Clear Chat</button>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="ml-engine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
